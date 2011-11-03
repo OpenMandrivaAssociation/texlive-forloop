@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/forloop
+# catalog-date 2007-02-27 14:19:10 +0100
+# catalog-license lgpl
+# catalog-version 3.0
 Name:		texlive-forloop
 Version:	3.0
 Release:	1
@@ -43,6 +49,7 @@ LaTeX macro programming.
 #- source
 %doc %{_texmfdistdir}/source/latex/forloop/forloop.dtx
 %doc %{_texmfdistdir}/source/latex/forloop/forloop.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -53,3 +60,5 @@ LaTeX macro programming.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
