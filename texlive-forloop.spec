@@ -6,7 +6,7 @@
 # catalog-version 3.0
 Name:		texlive-forloop
 Version:	3.0
-Release:	2
+Release:	3
 Summary:	Iteration in LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/forloop
