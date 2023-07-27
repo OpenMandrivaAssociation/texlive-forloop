@@ -1,6 +1,6 @@
 Name:		texlive-forloop
-Version:	15878
-Release:	2
+Version:	67017
+Release:	1
 Summary:	Iteration in LaTeX
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/forloop
