@@ -3,7 +3,7 @@ Version:	67017
 Release:	1
 Summary:	Iteration in LaTeX
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/forloop
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/forloop
 License:	LGPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/forloop.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/forloop.doc.r%{version}.tar.xz
